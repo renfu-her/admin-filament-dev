@@ -33,9 +33,9 @@ class BackendPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::Amber,
             ])
+            ->darkMode(false)
             // ->homeUrl('/backend/posts')
             ->pages([
-                Pages\Dashboard::class,
             ])
             ->navigationGroups([
                 '網站管理',
